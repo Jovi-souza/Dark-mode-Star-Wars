@@ -11,25 +11,17 @@ import { Container, ImgContainer } from "./styles";
 export function DefaultLayout() {
   const [theme, setTheme] = useState(Light);
   const [icon, setIcon] = useState(LightIcon);
-  const [text, setText] = useState('Juntar-se ao lado escuro!');
+  const [text, setText] = useState("Juntar-se ao lado escuro!");
 
   function HandleSwitchTheme() {
-    setTheme ( 
-      theme === Light ? 
-      Dark : 
-      Light
-    )
-    setIcon(
-      icon === LightIcon ? 
-      DarkIcon : 
-      LightIcon
-    )
+    setTheme(theme === Light ? Dark : Light);
+    setIcon(icon === LightIcon ? DarkIcon : LightIcon);
 
-    setText( 
-      text === 'Juntar-se ao lado escuro!' ? 
-      'Volte para as tropas!' : 
-      'Juntar-se ao lado escuro!'
-    )
+    setText(
+      text === "Juntar-se ao lado escuro!"
+        ? "Volte para as tropas!"
+        : "Juntar-se ao lado escuro!"
+    );
   }
 
   return (
@@ -37,11 +29,7 @@ export function DefaultLayout() {
       <ImgContainer>
         <img src={icon} />
       </ImgContainer>
-      <Switch 
-        color="warning" 
-        size="medium" 
-        onClick={HandleSwitchTheme}
-      />
+      <Switch color="warning" size="medium" onClick={HandleSwitchTheme} />
       <h1>{text}</h1>
     </Container>
   );
