@@ -5,7 +5,7 @@
    <img src="http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge"/>
 </p>
 
-> Status do Projeto: :heavy_check_mark: :warning: (concluido, em desenvolvimento, etc)
+> Status do Projeto: Concluído :heavy_check_mark:
 
 ### Tópicos 
 
@@ -21,4 +21,4 @@
 
 ## Layout :dash:
 
-<img src="" />
+<img src="https://user-images.githubusercontent.com/102324315/194600642-2016b1d9-6b3a-4c35-8bc0-1e48f31e8578.svg" />
